@@ -1,0 +1,35 @@
+.blog-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    background: #fff;
+    width: 120px;
+    object-fit: contain;
+}
+
+.blog-card-image {
+    width: 100%;
+    height: auto;
+}
+
+.blog-card-content {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    overflow-wrap: anywhere;
+}
+
+.blog-card-content h3 {
+    margin: 0 0 0.5rem;
+}
+
+.blog-card-content p {
+    margin: 0 0 1rem;
+}
